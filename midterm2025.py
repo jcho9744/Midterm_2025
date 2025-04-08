@@ -18,7 +18,7 @@ np.random.seed(42)
 
 # (a) Data Acquisition
 # Load the dataset from the CSV file
-df = pd.read_csv("bank_marketing.csv", sep=";")
+df = pd.read_csv("bank_labeled.csv", sep=";")
 
 print("Dataset loaded successfully. Shape:", df.shape)
 
